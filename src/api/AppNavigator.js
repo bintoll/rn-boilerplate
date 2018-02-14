@@ -6,7 +6,7 @@ import { addNavigationHelpers, StackNavigator, DrawerNavigator } from 'react-nav
 import CustomDrawerContentComponent from 'components/CustomDrawerContentComponent'
 
 import { width, height, createTableQuery } from 'constants/config'
-import store, { persistor } from './ReduxStore'
+import store, { persistor, addListener } from './ReduxStore'
 
 // Imports for app routes
 import Login from 'layouts/Login'
